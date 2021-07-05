@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Copying input to clipboard!"
+xclip -selection c
+echo "Input copied to clipboard!"
+
