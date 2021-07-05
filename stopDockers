@@ -1,0 +1,11 @@
+#!/bin/bash
+
+containerIDs=`docker ps -q`
+
+if [[ -z "$containerIDs" ]]; then
+	echo "No active docker containes found to stop."
+else
+	echo "Stopping all active docker containers."
+	docker stop $containerIDs
+fi
+
