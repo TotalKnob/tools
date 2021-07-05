@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Cycling swap to swap in all pages..."
+sudo swapoff -a; sudo swapon -a
+echo "Cycled swap, all pages back in memory!"
+
