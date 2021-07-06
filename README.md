@@ -7,5 +7,6 @@ This repo contains tools and scripts that I find nice to have on standby. Instal
 
 ## Non-root
 * **toClipboard** - Copies all input to the clipboard.
-* **stopDockers** - Stops all active docker containers.
+* **dockerStop** - Stops all active docker containers.
+* **dockerContainerRm** - Removes all docker containers.
 

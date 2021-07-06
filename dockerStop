@@ -3,7 +3,7 @@
 containerIDs=`docker ps -q`
 
 if [[ -z "$containerIDs" ]]; then
-	echo "No active docker containes found to stop."
+	echo "No active docker containers found to stop."
 else
 	echo "Stopping all active docker containers."
 	docker stop $containerIDs

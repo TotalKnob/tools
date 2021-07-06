@@ -1,0 +1,11 @@
+#!/bin/bash
+
+containerIDs=`docker container ls -aq`
+
+if [[ -z "$containerIDs" ]]; then
+	echo "No docker containers found to remove."
+else
+	echo "Removing docker containers."
+	docker container rm $containerIDs
+fi
+
