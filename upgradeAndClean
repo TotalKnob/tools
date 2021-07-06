@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Upgrading all packages..."
+sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean -y
+
