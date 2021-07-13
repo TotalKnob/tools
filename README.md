@@ -10,4 +10,5 @@ This repo contains tools and scripts that I find nice to have on standby. Instal
 * **toClipboard** - Copies all input to the clipboard.
 * **dockerStop** - Stops all active docker containers.
 * **dockerContainerRm** - Removes all docker containers.
+* **dockerPruneAll** - Deletes all images and containers on the system.
 
