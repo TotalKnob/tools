@@ -5,6 +5,7 @@ This repo contains tools and scripts that I find nice to have on standby. Instal
 * **dropCache** - Drops non-essential cache from memory, freeing up memory.
 * **unswapPages** - Cycles swap to empty the whole swap.
 * **upgradeAndClean** - Upgrades all packages, autoremove and clean.
+* **startVsCodeAsRoot** - Starts Visual Studio Code as root.
 
 ## Non-root
 * **toClipboard** - Copies all input to the clipboard.
