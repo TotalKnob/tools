@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 containerIDs=`docker container ls -aq`
 
 if [[ -z "$containerIDs" ]]; then
