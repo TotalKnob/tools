@@ -1,6 +1,9 @@
 # Tools
 This repo contains tools and scripts that I find nice to have on standby. Install all dependencies from 'installDependencies' for all tools to function.
 
+git clone git@github.com:TotalKnob/tools.git \~/tools  
+printf '\nexport PATH="$PATH:\~/tools"\n\n' >> \~/.bashrc  
+
 ## Root
 * **dropCache** - Drops non-essential cache from memory, freeing up memory.
 * **unswapPages** - Cycles swap to empty the whole swap.
