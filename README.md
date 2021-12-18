@@ -15,4 +15,5 @@ printf '\nexport PATH="$PATH:\~/tools"\n\n' >> \~/.bashrc
 * **dockerStop** - Stops all active docker containers.
 * **dockerContainerRm** - Removes all docker containers.
 * **dockerPruneAll** - Deletes all images and containers on the system.
+* **pythonUpdateAllPackages** - Upgrades all Python packages
 

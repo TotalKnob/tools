@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Requires Pip version >=20 to be installed.
+
+set -e
+
+echo "Starting to upgrade all installed Python packages"
+pip list --format freeze --outdated | sed 's/=.*//g' | xargs -n1 pip install -U
+echo "Done upgrading Python packages"
+
