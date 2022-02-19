@@ -17,3 +17,6 @@ printf '\nexport PATH="$PATH:\~/tools"\n\n' >> \~/.bashrc
 * **dockerPruneAll** - Deletes all images and containers on the system.
 * **pythonUpdateAllPackages** - Upgrades all Python packages
 
+## My pc specific
+* **fixCracklingSound** - Fixes crackling sound on HP Pavilion Gaming 15 cx0670nd on Ubuntu.
+
