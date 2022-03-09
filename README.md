@@ -16,6 +16,7 @@ printf '\nexport PATH="$PATH:\~/tools"\n\n' >> \~/.bashrc
 * **dockerContainerRm** - Removes all docker containers.
 * **dockerPruneAll** - Deletes all images and containers on the system.
 * **pythonUpdateAllPackages** - Upgrades all Python packages
+* **unhideCursor** - Unhides cursor if hidden.
 
 ## My pc specific
 * **fixCracklingSound** - Fixes crackling sound on HP Pavilion Gaming 15 cx0670nd on Ubuntu.
