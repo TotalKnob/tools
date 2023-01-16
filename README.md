@@ -9,6 +9,7 @@ printf '\nexport PATH="$PATH:\~/tools"\n\n' >> \~/.bashrc
 * **unswapPages** - Cycles swap to empty the whole swap.
 * **upgradeAndClean** - Upgrades all packages, autoremove and clean.
 * **startVsCodeAsRoot** - Starts Visual Studio Code as root.
+* **cleanSnaps** - Removes old revisions of snaps.
 
 ## Non-root
 * **toClipboard** - Copies all input to the clipboard.
