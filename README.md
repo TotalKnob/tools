@@ -10,6 +10,7 @@ printf '\nexport PATH="$PATH:\~/tools"\n\n' >> \~/.bashrc
 * **upgradeAndClean** - Upgrades all packages, autoremove and clean.
 * **startVsCodeAsRoot** - Starts Visual Studio Code as root.
 * **cleanSnaps** - Removes old revisions of snaps.
+* **fixTimeDualboot** - Sets system time to local for dualboot Windows/Linux.  
 
 ## Non-root
 * **toClipboard** - Copies all input to the clipboard.

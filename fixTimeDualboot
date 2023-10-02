@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+# Check if script is being run as root and run as root if not.
+[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
+
+echo "Setting system clock to local time"
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
+echo "Setting system clock to local time done!"
